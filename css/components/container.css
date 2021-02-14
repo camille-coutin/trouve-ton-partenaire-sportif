@@ -1,0 +1,30 @@
+.container{
+	width: 700px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.container p{
+	font-size: 45px;
+	margin-top: 5px;
+}
+
+#segments h2{
+	color: rgb(56, 189, 207);
+}
